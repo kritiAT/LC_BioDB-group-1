@@ -1,31 +1,31 @@
 # Proposal - Group 1
 
-Topic: drug discovery
+## TOPIC - DRUG REPOSITORY
 
-Disease -> Target genes/proteins -> Drug
+- Information about drug and drug properties
+- Association with diseases
+- Target proteins/genes
+- Drug to drug interations
+- Side effects
 
+## DATABASES:
+- Drug (PubChem,ChEMBL,DrugBank,ChEBI)
+- Target predictions (Uniprot, InterPro)
+- Disease (KEGG,DisGeNET)
+- Side effect(SIDER 2) [Optional]
 
-## Database:
-- Disease
-  - **Malacards**: human disease database
-  - **DisGeNET**: gene-disease associations
-  - **KEGG**: a database resource of biological system. Human diseases, disease genes, drugs and ATC code are extracted.
-  - **JSNP**: a repository of Japanese SNP data. Diseases, associated SNPs, and disease genes are extracted.
-- Drug
-  - **ChEMBL**: bioactive molecules with drug-like properties
-  - **DrugBank**: drug target
-  - **STITCH 4.0**: a database of protein-chemical interactions. Confidence score of chemical (drug) - protein interaction is extracted.
-  - **PubChem**: a database of chemical molecules. Chemical ID according to drug number in the KEGG database is extracted.
-- Molecular structure
-  - **PDB**
-- Target protein
-  - **Uniprot**
-- Side effect:
-  - **SIDER 2**: a side effect resource to capture phenotypic effects of drugs. Chemical (drug), ATC code, drug side effect, and its incidence are extracted.
+## EXPECTED DATABASE MODEL
+
+<img src = "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40537-015-0024-1/MediaObjects/40537_2015_24_Fig4_HTML.gif?as=webp">
 
 
+Reference : https://journalofbigdata.springeropen.com/articles/10.1186/s40537-015-0024-1
 
-## Cross reference:
+## ROADMAP
+
+- Query any drug in chemical database
+- Find the target gene/protein and association with disease
+- Find the side effects of the drug
 
 
 
