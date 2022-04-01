@@ -1,4 +1,90 @@
-# Report
+# Report on Biodb-Expression-Atlas
+
+Submitted by - Kriti Amin, Zexin Li, Shubhi Ambast (Group-1)
+
+# Introduction
+---
+## State of the art
+
+**ParkDB: a Parkinson’s disease gene expression database**
+
+ParkDB, a resource that aims to provide comprehensive access to high quality gene expression datasets analyzed in a homogeneous manner.
+
+- Database contains a complete set of re-analyzed, curated and annotated microarray datasets.
+- This resource enables scientists to identify and compare expression signatures involved in PD.
+- Microarray data collected from:
+
+  - ArrayExpress
+  - Gene Expression Omnibus (GEO)
+  - Stanford microarray database
+- Usage : to perform data analysis and discovery of relationships between genes involved in PD in several human brain regions, as well as across multiple model organisms or cell lines.
+
+## Parkinson's Disease
+Parkinson's disease is a neurodegenerative disorder that affects approximately 10 million people worldwide. Most patients that are diagnosed with Parkinson's disease are older than 50 years (~96 %). 
+There is no cure of the disease but there are several drugs used to treat the symptoms of Parkinson's disease like:
+- Levodopa
+- Pramipexole
+- Safinamide
+
+
+## ParkinsonDrugPredictor(PDP)
+
+PDP is a tool to predict potential drugs for Parkinson's disease from gene expression experiment data.
+
+Databases used in the project are :
+##### 1. Expression Atlas - https://www.ebi.ac.uk/gxa/home
+   Database about gene and protein expression 
+
+##### 2. The Comparative Toxicogenomics Database(CTD) - http://ctdbase.org/
+Database about chemical–gene/protein interactions, chemical–disease and gene–disease relationships
+
+##### 3. DrugBank - https://go.drugbank.com/
+Database containing information on drugs and drug targets
+
+### Algorithm of PDP
+
+- Extract up and down regulated genes from the gene expression data. (Expression Atlas)
+- Get chemical data associated with the genes involved in the expression studies. (CTD)
+    - find chemicals that reverse the up/down regulation caused by the disease
+- Identify potential drugs based on the chemical data. (DrugBank)
+    - phases of drug development (approved drug, drug repurposing, not approved compound)
+
+## Expression Atlas
+
+Our group majorly focuses on handling gene expression data. Our task was to look for those gene expression experiments which concerns Parkinson's disease. 
+
+**Expression Atlas** is an open science resource that gives users a powerful way to find information about gene and protein expression.
+provides gene expression results on more than 3,000 experiments from 40 different organisms, including metazoans and plants.
+
+- Browse experiments tab, which shows the users a table listing all the experiments currently available in Expression Atlas.
+
+- Users can find two kinds of expression results:
+  - baseline expression
+  - differential expression
+
+- Criteria to assess expression : log2 fold-change and the adjusted p-value
+
+# Materials and Methods
+---
+
+
+
+
+
+
+# Results
+---
+
+
+
+
+
+
+
+
+
+# Discussion
+---
 
 ## Result
 
